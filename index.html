@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+  <div style="align-items: center; display: flex; justify-content: center;" >
+    <br><br>
+    <div class="card cards" style="width: 50%; background-color: orange">
+      <div class="card-body">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <!-- create a container for the todo list -->
+    <div id="todo-container">
+      <!-- todo list header -->
+      <div id="header">
+        <h1>Make a Remainder Here...!!</h1>
+      </div><br>
+
+      <!-- create input box -->
+      <div id="todo-form">
+        <input
+          type="text"
+          class="input-item"
+          name="input_box"
+          id="input-box"
+          placeholder="Add Task"
+        />
+
+        <!-- add button  -->
+        <button id="input-button" onclick="addTask()">Add</button>
+      </div><br>
+
+      <!-- task list -->
+      <h2 style="color:rgb(3, 3, 87);">Remainding you Here...!</h2><br>
+      <ul id="list-container" style="color: white;"></ul>
+
+
+      <!-- task list counter  -->
+      <div class="counter-container">
+        <div id="task-counters">
+          Done:-)  : <span id="completed-counter" style="color: green;">0</span> 
+           Not Done :-(  : <span id="uncompleted-counter " style="color: red;">0</span>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+  </div>
+    <script type="text/javascript" src="script.js"></script>
+   
+  </body>
+</html>

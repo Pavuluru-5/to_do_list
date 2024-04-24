@@ -1,0 +1,122 @@
+body{ 
+    background: rgb(0,0,0);
+    background:  linear-gradient(262.72deg, #172458 0.01%, #191726 99.6%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+  
+  .checkboxToDo{
+    background-color: #172458;
+  }
+
+  .todo-container{
+    background: rgb(247, 2, 2);
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #010131;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  #input-box{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+   
+  #input-button{
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7f7f8;
+  }
+  
+  .task button{
+    background: rgb(12, 124, 251);
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+  }
+  
+ 
+  
+  #header{
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: #ccc;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h1{
+    margin-bottom: 20px; 
+    color: #172458;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .cards:hover{
+    /* border-radius: 25%; */
+    box-shadow: 10px 10px 10px 10px #9eb7fd;
+  }
+
+  #input-button:hover {
+    background-color: #9eb7fd; 
+  } 
+  
+  #task-counters{
+    color: rgb(1, 16, 99);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+  }
+  
+  li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #010131;
+    align-items: center;
+  }
+
+  .delete-btn{
+    color:crimson;
+  }
+  .edit-btn{
+    color: aquamarine;
+  }
+  
+  .edit-btn, .delete-btn, .complete-btn{
+    float: right;
+    cursor: pointer;
+    margin: 0px 5px;
+    border: none;
+    padding: 0px 5px;
+    background: none;  
+    align-items: center;
+  } 
+  
+  .completed {
+    text-decoration: line-through;
+    color: rgb(192, 222, 250);
+    border: 1px solid rgb(179, 177, 177);
+  }
